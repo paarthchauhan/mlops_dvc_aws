@@ -1,0 +1,12 @@
+2025-07-31 04:35:27,899 - model_building - DEBUG - Parameters retrieved from <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>
+2025-07-31 04:35:27,964 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv
+2025-07-31 04:35:27,971 - model_building - DEBUG - Intializing RF Model params from {'n_estimators': 60, 'random_state': 5}
+2025-07-31 04:35:27,972 - model_building - DEBUG - Model training starred with 4922 samples
+2025-07-31 04:35:28,374 - model_building - DEBUG - Training Completed
+2025-07-31 04:35:28,414 - model_building - DEBUG - Model saved to model/model.pkl
+2025-07-31 04:40:42,323 - model_building - DEBUG - Parameters retrieved from <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>
+2025-07-31 04:40:42,376 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv
+2025-07-31 04:40:42,380 - model_building - DEBUG - Intializing RF Model params from {'n_estimators': 60, 'random_state': 5}
+2025-07-31 04:40:42,381 - model_building - DEBUG - Model training starred with 4922 samples
+2025-07-31 04:40:42,743 - model_building - DEBUG - Training Completed
+2025-07-31 04:40:42,774 - model_building - DEBUG - Model saved to model/model.pkl

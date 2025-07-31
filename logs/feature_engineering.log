@@ -1,0 +1,12 @@
+2025-07-31 04:34:27,407 - feature_engineering - DEBUG - Parameters from params.yaml loaded
+2025-07-31 04:34:27,438 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-07-31 04:34:27,447 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-07-31 04:34:27,506 - feature_engineering - DEBUG - TFIDF Vectors created for Train and Test Data
+2025-07-31 04:34:27,688 - feature_engineering - DEBUG - Data Saved:./data/processed/train_tfidf.csv
+2025-07-31 04:34:27,707 - feature_engineering - DEBUG - Data Saved:./data/processed/test_tfidf.csv
+2025-07-31 04:40:39,761 - feature_engineering - DEBUG - Parameters from params.yaml loaded
+2025-07-31 04:40:39,779 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-07-31 04:40:39,786 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-07-31 04:40:39,834 - feature_engineering - DEBUG - TFIDF Vectors created for Train and Test Data
+2025-07-31 04:40:40,071 - feature_engineering - DEBUG - Data Saved:./data/processed/train_tfidf.csv
+2025-07-31 04:40:40,093 - feature_engineering - DEBUG - Data Saved:./data/processed/test_tfidf.csv
