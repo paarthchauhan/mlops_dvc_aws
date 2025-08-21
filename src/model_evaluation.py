@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_a
 import logging
 import yaml
 from dvclive import Live
-
+import mlflow
 #Logs directory
 log_dir = "logs"
 os.makedirs(log_dir,exist_ok=True)
@@ -116,6 +116,8 @@ def save_metrics(metrics: dict, file_path: str) -> None:
         raise
 
 def main():
+    mlflow.set_tracking_uri(f"file://{os.path.abspath('mlruns')}")
+    mlflow.set_experiment("Spam-Classifier-Pipeline")
     try:
         params = load_params(params_path='params.yaml')
         clf = load_model('./model/model.pkl')
@@ -136,6 +138,8 @@ def main():
             live.log_params(params)
               
         save_metrics(metrics,'reports/metrics.json')
+        mlflow.log_metrics(metrics)
+        mlflow.log_artifact('reports/metrics.json')
     except Exception as e:
         logger.error('Unexpected error : %s',e)
         print('Error{e}')

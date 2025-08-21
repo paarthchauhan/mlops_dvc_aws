@@ -1,0 +1,10 @@
+artifact_location: file:///mnt/c/Users/raman/Desktop/mlops_dvc_aws/mlops_dvc_aws/mlruns/218515447229394264/models/m-ee89afcf65e741918607237de5f5ba31/artifacts
+creation_timestamp: 1754539796554
+experiment_id: '218515447229394264'
+last_updated_timestamp: 1754539801989
+model_id: m-ee89afcf65e741918607237de5f5ba31
+model_type: null
+name: 9abf1740df6c413f90b7df82b094202f
+source_run_id: 9abf1740df6c413f90b7df82b094202f
+status: 2
+status_message: null

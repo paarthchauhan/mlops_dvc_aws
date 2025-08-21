@@ -10,3 +10,27 @@
 2025-07-31 04:40:42,381 - model_building - DEBUG - Model training starred with 4922 samples
 2025-07-31 04:40:42,743 - model_building - DEBUG - Training Completed
 2025-07-31 04:40:42,774 - model_building - DEBUG - Model saved to model/model.pkl
+2025-08-07 03:43:03,034 - model_building - DEBUG - Parameters retrieved from <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>
+2025-08-07 03:43:03,098 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv
+2025-08-07 03:43:03,103 - model_building - DEBUG - Intializing RF Model params from {'n_estimators': 60, 'random_state': 5}
+2025-08-07 03:43:03,104 - model_building - DEBUG - Model training starred with 4922 samples
+2025-08-07 03:43:03,395 - model_building - DEBUG - Training Completed
+2025-08-07 03:43:03,440 - model_building - DEBUG - Model saved to model/model.pkl
+2025-08-07 04:07:52,838 - model_building - DEBUG - Parameters retrieved from <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>
+2025-08-07 04:07:52,940 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv
+2025-08-07 04:07:52,949 - model_building - DEBUG - Intializing RF Model params from {'n_estimators': 60, 'random_state': 5}
+2025-08-07 04:07:52,950 - model_building - DEBUG - Model training starred with 4922 samples
+2025-08-07 04:07:53,283 - model_building - DEBUG - Training Completed
+2025-08-07 04:07:53,334 - model_building - DEBUG - Model saved to model/model.pkl
+2025-08-07 04:08:55,181 - model_building - DEBUG - Parameters retrieved from <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>
+2025-08-07 04:08:55,295 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv
+2025-08-07 04:08:55,302 - model_building - DEBUG - Intializing RF Model params from {'n_estimators': 60, 'random_state': 5}
+2025-08-07 04:08:55,303 - model_building - DEBUG - Model training starred with 4922 samples
+2025-08-07 04:08:55,629 - model_building - DEBUG - Training Completed
+2025-08-07 04:08:55,664 - model_building - DEBUG - Model saved to model/model.pkl
+2025-08-07 04:09:56,015 - model_building - DEBUG - Parameters retrieved from <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>
+2025-08-07 04:09:56,088 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv
+2025-08-07 04:09:56,094 - model_building - DEBUG - Intializing RF Model params from {'n_estimators': 60, 'random_state': 5}
+2025-08-07 04:09:56,095 - model_building - DEBUG - Model training starred with 4922 samples
+2025-08-07 04:09:56,396 - model_building - DEBUG - Training Completed
+2025-08-07 04:09:56,436 - model_building - DEBUG - Model saved to model/model.pkl

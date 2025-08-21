@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/c/Users/raman/Desktop/mlops_dvc_aws/mlops_dvc_aws/mlruns/218515447229394264/5293ba5853ae4b90b2fc58ef915c7c30/artifacts
+end_time: 1754540258454
+entry_point_name: ''
+experiment_id: '218515447229394264'
+lifecycle_stage: active
+run_id: 5293ba5853ae4b90b2fc58ef915c7c30
+run_name: stylish-goat-179
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754540257537
+status: 3
+tags: []
+user_id: paarthchauhan

@@ -68,8 +68,8 @@ stages:
       nfiles: 2
     - path: src/model_building.py
       hash: md5
-      md5: 77c025cb068578132c19a747b222ee47
-      size: 3767
+      md5: b34e1969e8f1f0615470c4b326b07cc4
+      size: 4156
       isexec: true
     params:
       params.yaml:
@@ -80,4 +80,23 @@ stages:
       hash: md5
       md5: bc973e5de8fa868b806c81e91abb9217
       size: 3060685
+      isexec: true
+  model_evaluation:
+    cmd: python src/model_evaluation.py
+    deps:
+    - path: model/model.pkl
+      hash: md5
+      md5: bc973e5de8fa868b806c81e91abb9217
+      size: 3060685
+      isexec: true
+    - path: src/model_evaluation.py
+      hash: md5
+      md5: 03e39143b4421d208a6ba2352181f07f
+      size: 4786
+      isexec: true
+    outs:
+    - path: reports/metrics.json
+      hash: md5
+      md5: ebcd91f70897c40dc1ca37842838730c
+      size: 113
       isexec: true

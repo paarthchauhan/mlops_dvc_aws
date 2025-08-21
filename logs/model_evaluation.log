@@ -8,3 +8,24 @@
 2025-07-31 04:40:45,099 - model_evaluation - DEBUG - Test Data Loaded from ./data/processed/test_tfidf.csv
 2025-07-31 04:40:45,120 - model_evaluation - DEBUG - Model Evaluation are accuracy: 0.963899 , precision : 0.875000, recall : 0.750000, auc: 0.868976
 2025-07-31 04:40:45,475 - model_evaluation - ERROR - Unexpected error : Empty git repo
+2025-07-31 04:43:00,891 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2025-07-31 04:43:01,039 - model_evaluation - DEBUG - Model loaded from ./model/model.pkl
+2025-07-31 04:43:01,049 - model_evaluation - DEBUG - Test Data Loaded from ./data/processed/test_tfidf.csv
+2025-07-31 04:43:01,063 - model_evaluation - DEBUG - Model Evaluation are accuracy: 0.963899 , precision : 0.875000, recall : 0.750000, auc: 0.868976
+2025-07-31 04:43:01,530 - model_evaluation - DEBUG - Metrics save to reports/metrics.json
+2025-08-07 04:11:15,385 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2025-08-07 04:11:15,504 - model_evaluation - DEBUG - Model loaded from ./model/model.pkl
+2025-08-07 04:11:15,529 - model_evaluation - DEBUG - Test Data Loaded from ./data/processed/test_tfidf.csv
+2025-08-07 04:11:15,550 - model_evaluation - DEBUG - Model Evaluation are accuracy: 0.963899 , precision : 0.875000, recall : 0.750000, auc: 0.868976
+2025-08-07 04:11:16,323 - model_evaluation - DEBUG - Metrics save to reports/metrics.json
+2025-08-07 04:11:16,353 - model_evaluation - ERROR - Unexpected error : module 'mlflow' has no attribute 'log'
+2025-08-07 04:15:19,923 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2025-08-07 04:15:20,088 - model_evaluation - DEBUG - Model loaded from ./model/model.pkl
+2025-08-07 04:15:20,104 - model_evaluation - DEBUG - Test Data Loaded from ./data/processed/test_tfidf.csv
+2025-08-07 04:15:20,125 - model_evaluation - DEBUG - Model Evaluation are accuracy: 0.963899 , precision : 0.875000, recall : 0.750000, auc: 0.868976
+2025-08-07 04:15:20,921 - model_evaluation - DEBUG - Metrics save to reports/metrics.json
+2025-08-07 04:17:35,694 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2025-08-07 04:17:36,004 - model_evaluation - DEBUG - Model loaded from ./model/model.pkl
+2025-08-07 04:17:36,030 - model_evaluation - DEBUG - Test Data Loaded from ./data/processed/test_tfidf.csv
+2025-08-07 04:17:36,060 - model_evaluation - DEBUG - Model Evaluation are accuracy: 0.963899 , precision : 0.875000, recall : 0.750000, auc: 0.868976
+2025-08-07 04:17:37,296 - model_evaluation - DEBUG - Metrics save to reports/metrics.json

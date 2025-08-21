@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/c/Users/raman/Desktop/mlops_dvc_aws/mlops_dvc_aws/mlruns/218515447229394264/515af97e63c94a299259de72a34b95ba/artifacts
+end_time: 1754539677784
+entry_point_name: ''
+experiment_id: '218515447229394264'
+lifecycle_stage: active
+run_id: 515af97e63c94a299259de72a34b95ba
+run_name: train
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754539672586
+status: 3
+tags: []
+user_id: paarthchauhan

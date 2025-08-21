@@ -1,0 +1,22 @@
+artifact_path: file:///mnt/c/Users/raman/Desktop/mlops_dvc_aws/mlops_dvc_aws/mlruns/218515447229394264/models/m-ee89afcf65e741918607237de5f5ba31/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.2.0
+model_id: m-ee89afcf65e741918607237de5f5ba31
+model_size_bytes: 3060685
+model_uuid: m-ee89afcf65e741918607237de5f5ba31
+prompts: null
+run_id: 9abf1740df6c413f90b7df82b094202f
+utc_time_created: '2025-08-07 04:09:56.895254'
